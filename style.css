@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+* {
+    font-size: 62.5%;
+}
+
+html, 
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+
+.header-text-error {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-container__img {
+    max-width: 539.22px;
+    width: 100%;
+    display: block;
+    margin: 50px auto 40px auto;
+}
+
+.container-content-heading {
+    font-family: 'Space Mono', monospace;
+    color: #333333;
+    margin: 0;
+}
+
+.container-content-text {
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    color: #4F4F4F;
+}
+
+.content-link {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #333333;
+    color: white;
+    padding: 24px 43px;
+}
+
+.content-link:hover  {
+    background-color: #575454;
+}
+
+.content-link-text {
+    text-transform: uppercase;
+    font-family: 'Space Mono', monospace;
+}
+
+.author {
+    width: 100%;
+}
+
+.author-text {
+    text-align: center;
+    color: #BDBDBD;
+}
+
+@media screen and (min-width: 0px) {
+    .header-text-error {
+        margin: 20px 0 0 24px;
+        font-size: 2.4rem;
+    }
+    
+    .container {
+        flex-direction: column;
+    }
+    
+    .container-content-heading {
+        font-size: 4rem;
+        margin: 0 2px 0 16px;
+    }
+    
+    .container-content-text {
+        font-size: 1.8rem;
+        margin: 30px 20px 90px 20px;
+        line-height: 26.6px;
+    }
+
+    .container-content-link {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .content-link-text {
+        font-size: 1.4rem;
+    }
+    
+    .author {
+        margin-top: 100px;
+        padding-bottom: 25px;
+    }
+    
+    .author-text {
+        font-size: 1.4rem;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .header-text-error {
+        margin: 40px 0 0 77px;
+        font-size: 2.4rem;
+    }
+    
+    .container {
+        margin-top: 200px;
+        flex-direction: row;
+    }
+    
+    .container-content {
+        margin-left: 200px;
+    }
+    
+    .container-content-heading {
+        font-size: 6.4rem;
+        width: 588px;
+    }
+    
+    .container-content-text {
+        width: 383px;
+        margin: 40px 0 60px 0;
+        font-size: 2.4rem;
+        line-height: 35.4px;
+    }
+    
+    .content-link-text {
+        font-size: 1.4rem;
+    }
+}
